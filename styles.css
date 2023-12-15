@@ -1,0 +1,119 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: cover;
+    
+}
+body{
+    background-image: url("images/flappyBirdBackdrop.png");
+}
+h1,h2,h3,h4,h5,h6,p,input,a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 45px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header > h1 {
+    font-size: 60px;
+
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+}
+.header > h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.project > h1,h3 {
+    padding: 0px;
+    margin: 0px
+}
+
+.project {
+    padding: 10px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color:black;
+}
+
+.projects > section {
+    text-align: center;
+}
+
+
+#project0 {
+    background: url("images/apps/pressure.png");
+    background-size: contain;
+    color:white;
+}
+
+#project1 {
+    background: url("images/apps/poison.png");
+    background-size: contain;
+    color:white;
+}
+
+#project3 {
+    background: url("images/apps/pvz.png");
+    background-size: contain;
+
+    color:white;
+}
+
+#project4 {
+    background: url("images/apps/mcpluginbackgrounds1.png");
+    background-size: contain;
+    color:white;
+}
+
+#project5 {
+    background: url("images/apps/mcpluginbackgrounds2.png");
+    background-size: contain;
+     color:white;
+    
+}
+
+#i0 {
+    background: url("images/socials/discord.png");
+}
+#i1 {
+    background: url("images/socials/youtube.png");
+}
+#i2 {
+    background: url("images/socials/itch.png");
+}
+#i3 {
+    background: url("images/socials/fiverr.png");
+}
+.smICO {
+    width: 108px;
+    height: 108px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.socials {
+    width:max-content;
+    margin-left: auto;
+    margin-right:auto;
+}
+.socials > button {
+    border: none;
+}
+
+.project > p {
+    font-size: 15px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #000000;
+}
